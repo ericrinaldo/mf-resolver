@@ -6,7 +6,7 @@ Note: express redirection is surely not the best way to do it. The purpose of th
 ## demo
 
 ### use case
-A new version of a federated module ("design-systrem") has been published.
+A new version of a federated module ("design-systrem") has been published at a cdn.
 A consumer of that madule has tested this new version in TEST and UAT and is ready to start using it in PROD.
 
 You want to change the version in use, without building or deploying.
@@ -16,12 +16,11 @@ You want to change the version in use, without building or deploying.
 `npm i`
 
 2. start the server
-`node server.js`
+`node server`
 
 3. Visit the published consumer app: https://mf-consumer-jet.vercel.app/
 
-4. Update the value of _["design-system"]["consumers"]["mf-consumer"]["prod"]_ in _data\modules.json_ from `"1.2.24"` to `"1.2.25"`. Save. 
-(No need to restart the server).
+4. Open the file _data\modules.json_ and update the value of _["design-system"]["consumers"]["mf-consumer"]["prod"]_ from `"1.2.24"` to `"1.2.25"`. Save. (No need to restart the server).
 
 5. Reload the consumer app and see that the default style of the button changed
 
