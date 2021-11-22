@@ -1,0 +1,21 @@
+{
+  "design-system": {
+    "cdn": "https://cdn-at-s3.s3.eu-north-1.amazonaws.com/modules",
+    "versions": {
+      "beta": "1.2.26-rc0",
+      "latest": "1.2.25"
+    },
+    "consumers": {
+      "mf-consumer": {
+        "prod": "1.2.24",
+        "test": "1.2.25",
+        "uat": "1.2.25"
+      },
+      "another-consumer": {
+        "prod": "1.2.23",
+        "test": "1.2.23",
+        "uat": "1.2.23"
+      }
+    }
+  }
+}
