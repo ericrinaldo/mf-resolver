@@ -7,7 +7,7 @@ Note: express redirection is surely not the best way to do it. The purpose of th
 
 ### use case
 A new version of a federated module ("design-systrem") has been published at a cdn.
-A consumer of that madule has tested this new version in TEST and UAT and is ready to start using it in PROD.
+A consumer of that module has tested this new version in TEST and UAT and is ready to start using it in PROD.
 
 You want to change the version in use, without building or deploying.
 
