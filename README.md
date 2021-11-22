@@ -25,10 +25,10 @@ You want to change the version in use, without building or deploying.
 5. Reload the consumer app and see that the default style of the button changed
 
 
-## srcs in use
+## other srcs in use
 
 [mf-module](https://github.com/ericrinaldo/mf-module), the "design-system" with the button component <br />
 [mf-consumer](https://github.com/ericrinaldo/mf-consumer), the application consuming the button component
 
-## cdn
+## versions at the cdn
 ![image of cdn content](./cdn.png)
